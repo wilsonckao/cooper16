@@ -109,41 +109,38 @@
 </script>
 <script src="https://apis.google.com/js/client.js?onload=checkAuth">
 </script>
-
     <title>Money Project</title>
     <link rel="stylesheet" type="text/css" href="project.css">
   </head>
-  <h1> Enter the event info! </h1>
+  <h1> Modify the event info! </h1>
   <body>
     <div class="newEvent">
         <form>
-            Event Name:<br>
+            Event Name:
             <input type="text" id="name" value="name"><br>
-            Date and Time: <br>
+            Date and Time:
             <input type="text" id="dateStart" value="date starts">
             <input type="text" id="timeStart" value="time starts">to
             <input type="text" id="endTime" value="time ends">
             <input type="text" id="endDate" value="date ends"><br>
-            Where:<br>
+            Where:
             <input type="text" id="location" value="enter location"><br>
-            Notification<br>
+            Host:
+            <input type="text" id="host" value="host">
+            <br> Penalty  <input type="text" id="penalty" value="Amount for penalty">
+            <br>Status
               <select>
-                <option value="notification">Notification</option>
-                <option value="email">Email</option>
+                <option value="going">Going</option>
+                <option value="pending">Pending</option>
+                <option value="denying">Denying</option>
               </select>
-              <input type="text" id="timeValue" value="time value">
-              <select>
-                <option value="minutes">Minutes</option>
-                <option value="hours">Hours</option>
-                <option value="days">Days</option>
-                <option value="weeks">Weeks</option>
-              </select>
-              <br> Penalty <br> <input type="text" id="penalty" value="Amount for penalty">
-              <br>
-              <br>Add Guest <br> <input type="text" id="guests" value="Enter guest email address">
-              <button id="addGuest" type="button" value="addGuest">Add </button>
-              <p id="guestList" value="guestList"></p>
-              <button id="create" type="button" value="create">Create</button>
+            <br> <button id="modify" type="button" value="modify">Modify</button>
+            <br> Who is going
+            <p id="goingGuest" value="goingGuest"></p>
+            <br> Who is pending
+            <p id="pendingGuest" value="pendingGuest"></p>
+            <br> Who is denying
+            <p id="denyingGuest" value="denyingGuest"></p>
           </form>
       </div>
       <div id="authorize-div" style="display: none">
