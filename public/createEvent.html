@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Money Project</title>
+    <link rel="stylesheet" type="text/css" href="project.css">
+  </head>
+  <h1> Enter the event info! </h1>
+  <body>
+    <div class="newEvent">
+        <form>
+            Event Name:<br>
+            <input type="text" id="name" value="name"><br>
+            Date and Time: <br>
+            <input type="text" id="dateStart" value="date starts">
+            <input type="text" id="timeStart" value="time starts">to
+            <input type="text" id="endTime" value="time ends">
+            <input type="text" id="endDate" value="date ends"><br>
+            Where:<br>
+            <input type="text" id="location" value="enter location"><br>
+            Notification<br>
+              <select>
+                <option value="notification">Notification</option>
+                <option value="email">Email</option>
+              </select>
+              <input type="text" id="timeValue" value="time value">
+              <select>
+                <option value="minutes">Minutes</option>
+                <option value="hours">Hours</option>
+                <option value="days">Days</option>
+                <option value="weeks">Weeks</option>
+              </select>
+              <br> Penalty <br> <input type="text" id="penalty" value="Amount for penalty">
+              <br>
+              <br>Add Guest <br> <input type="text" id="guests" value="Enter guest email address">
+              <button id="addGuest" type="button" value="addGuest">Add </button>
+              <p id="guestList" value="guestList"></p>
+              <button id="create" type="button" value="create">Create</button>
+          </form>
+      </div>
+  </body>
+</html>

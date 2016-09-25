@@ -1,0 +1,86 @@
+h1{
+  margin-left: 39.5%;
+  margin-top: 50px;
+}
+#guestList{
+  height: 80px;
+  width: 320px;
+  padding: 10px;
+  border: 2px solid gray;
+  margin: 0;
+}
+body{
+  background-color: lightblue;
+}
+
+.newEvent{
+  font-size: 30px;
+}
+
+#createNewEvent{
+  margin-left: 33%;
+  margin-top: 30px;
+  height: 50px;
+  width: 450px;
+}
+
+#attending{
+  font-size: 30px;
+  margin-top: 30px;
+  height: 50px;
+  width: 450px;
+}
+#create{
+  width : 20em;
+  height : 2em;
+  font-size: 15px;
+}
+#modify{
+  width : 20em;
+  height : 2em;
+  font-size: 15px;
+}
+#attendingEvents{
+  height: 80px;
+  width: 320px;
+  padding: 10px;
+  border: 2px solid gray;
+  margin: 0;
+}
+
+#pending{
+  font-size: 30px;
+  margin-top: -50px;
+  margin-left: 700px;
+  height: 50px;
+  width: 450px;
+}
+
+#pendingEvents{
+  height: 80px;
+  width: 320px;
+  padding: 10px;
+  border: 2px solid gray;
+  margin: 0;
+}
+#goingGuest{
+  height: 80px;
+  width: 320px;
+  padding: 10px;
+  border: 2px solid gray;
+  margin: 0;
+}
+#pendingGuest{
+  height: 80px;
+  width: 320px;
+  padding: 10px;
+  border: 2px solid gray;
+  margin: 0;
+}
+#denyingGuest{
+  height: 80px;
+  width: 320px;
+  padding: 10px;
+  border: 2px solid gray;
+  margin: 0;
+}
